@@ -85,8 +85,8 @@ with open('/content/tlc/credentials.json', 'w') as file:
 
 Working = False
 
-if os.path.exists("/content/Telegram-Leecher/my_bot.session"):
-    os.remove("/content/Telegram-Leecher/my_bot.session") # Remove previous bot session
+if os.path.exists("/content/tlc/my_bot.session"):
+    os.remove("/content/tlc/my_bot.session") # Remove previous bot session
     
 print("\rStarting Bot....")
 
